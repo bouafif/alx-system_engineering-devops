@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chown vincent.vincent _hello
+sudo chown -R vincent:vincent _hello
