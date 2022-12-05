@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt --full-time | head 
+ls -lt 
