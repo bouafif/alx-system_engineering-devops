@@ -1,0 +1,18 @@
+#!/bin/bash
+# Display hours from 0 to 12
+
+hours=0
+while [ $hours -le 12 ]
+do
+    echo "Hour: $hours"
+    
+    # Display minutes from 1 to 59
+    minutes=1
+    while [ $minutes -le 59 ]
+    do
+        echo "$minutes"
+        minutes=$((minutes+1))
+    done
+    
+    hours=$((hours+1))
+done | head -n 70
