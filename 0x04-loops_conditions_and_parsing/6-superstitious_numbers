@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# This script displays numbers from 1 to 20 and shows a message for certain iterations
 
 i=1
 
