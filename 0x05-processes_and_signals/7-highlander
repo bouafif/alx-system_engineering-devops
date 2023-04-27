@@ -1,15 +1,8 @@
 #!/usr/bin/env bash
 # This script stops the 7-highlander process
-# Get the PID of the 7-highlander process
 
-PID=$(pgrep -f 7-highlander)
-
-# Check if PID is not empty
-if [ -n "$PID" ]; then
-  # If PID is not empty, kill the process
-  kill "$PID"
-  echo "7-highlander process stopped"
-else
-  # If PID is empty, the process is not running
-  echo "7-highlander process is not running"
-fi
+trap 'echo "I am invincible!!!"' 15
+while true; do
+    echo "to infinity and beyond"
+    sleep 2
+done
