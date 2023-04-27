@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Find the process ID for 4-to_infinity_and_beyond and stop it
+
+pkill -f 4-to_infinity_and_beyond
